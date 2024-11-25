@@ -3,7 +3,7 @@ const initData = require("./data.js");
 const Listing = require("../models/listing.js");
 require("dotenv").config();
 //Provide connection string here while initalising the database
-const MONGO_URL = process.env.MONGO_URL ;
+const MONGO_URL = "" ;
 
 main()
   .then(() => {
